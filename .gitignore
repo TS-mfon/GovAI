@@ -1,0 +1,29 @@
+# Env / secrets — never commit
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Node
+node_modules/
+.next/
+out/
+frontend/.next/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Hardhat junction + build outputs (canonical sources live in ../contracts/)
+deploy/contracts
+deploy/artifacts
+deploy/cache
+deploy/typechain-types
+deploy/deployed.json
+
+# Logs
+*.log
+npm-debug.log*

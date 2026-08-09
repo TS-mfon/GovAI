@@ -1,0 +1,16 @@
+{
+  "name": "govai-contracts-deploy",
+  "private": true,
+  "scripts": {
+    "deploy": "hardhat run 00_deploy_xlayer.js --network xlayerTestnet",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
